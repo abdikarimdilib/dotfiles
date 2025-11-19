@@ -1,0 +1,111 @@
+{
+    "redhat.telemetry.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "JetBrains Mono Nerd Font",
+    "editor.bracketPairColorization.enabled": true,
+    "explorer.compactFolders": false,
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [],
+    "material-icon-theme.files.associations": {
+        "*.yml": "yaml",
+        "*.md": "markdown",
+        "*.sql": "database"
+    },
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.startupEditor": "none",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.activateEnvInCurrentTerminal": false,
+    "editor.inlineSuggest.enabled": true,
+    "python.venvPath": ".venv",
+    "git.autofetch": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoFormatStrings": true,
+    "editor.minimap.autohide": true,
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.iconTheme": "symbols",
+    "editor.codeLensFontFamily": "bold",
+    "editor.renderLineHighlight": "none",
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Esc>"
+            ],
+            "when": [
+                "editorFocus"
+            ],
+            "commands": [
+                ":nohl"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.incsearch": true,
+    "vim.searchHighlightColor": "#f6ff0080",
+    "vim.searchHighlightTextColor": "#fff",
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.highlightedyank.enable": true,
+    "vim.smartRelativeLine": true,
+    "vim.surround": true,
+    "vim.easymotion": true,
+    "workbench.activityBar.orientation": "vertical",
+    "workbench.activityBar.location": "top",
+    "markdown.preview.fontFamily": "Comic Sans MS, JetBrains Mono Nerd Font",
+    "notebook.markup.fontFamily": "JetBrains Mono Nerd Font",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.fontAliasing": "auto",
+    "editor.formatOnPaste": true,
+    "symbols.hidesExplorerArrows": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "editor.lineHeight": 1.62,
+    "editor.fontWeight": "500",
+    "errorLens.fontWeight": "500",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never"
+    },
+    "errorLens.messageEnabled": false,
+    "window.commandCenter": true
+}
